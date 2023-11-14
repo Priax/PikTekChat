@@ -3,6 +3,7 @@
 A little program I did using Rust and SDL2
 
 I made it on Fedora Linux so I don't know if it works on other OS/Distros
+You also need to install rust to run it, use <code>Cargo run</code> to run it !
 
 It's a drawing program which draws using a line made out of circles, you can :
 
@@ -22,5 +23,5 @@ Also, the saved image will take the size of your current window.
 Feel free to try it !
 I had a lot of fun making it, even though it's not perfect.
 
-| [<img src="https://github.com/Priax.png?size=85" width=85><br><sub>Vincent Montero Fontaine</sub>](https://github.com/Priax)
+| [<img src="https://github.com/Priax.png?size=85" width=85><br><sub>Vincent Priax</sub>](https://github.com/Priax)
 | :---: |
