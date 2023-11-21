@@ -10,7 +10,7 @@ use image::GenericImageView;
 use sdl2::pixels::Color;
 
 pub fn open_image(file_path: &str) -> Result<Vec<(i32, i32, Color)>, String> {
-    let img = image::open(&Path::new(file_path)).map_err(|e| format!("Error opening image: {}", e))?;
+    let img = image::open(Path::new(file_path)).map_err(|e| format!("Error opening image: {}", e))?;
 
     let mut pixels = Vec::new();
     for y in 0..img.height() {

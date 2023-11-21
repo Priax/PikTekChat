@@ -1,0 +1,12 @@
+/home/Priax/PROJETS PERSO/RUST/PikTekChat/target/debug/deps/libhalf-a0b2f47f18d6a6a5.rmeta: /home/Priax/.cargo/registry/src/index.crates.io-6f17d22bba15001f/half-2.2.1/src/lib.rs /home/Priax/.cargo/registry/src/index.crates.io-6f17d22bba15001f/half-2.2.1/src/bfloat.rs /home/Priax/.cargo/registry/src/index.crates.io-6f17d22bba15001f/half-2.2.1/src/bfloat/convert.rs /home/Priax/.cargo/registry/src/index.crates.io-6f17d22bba15001f/half-2.2.1/src/binary16.rs /home/Priax/.cargo/registry/src/index.crates.io-6f17d22bba15001f/half-2.2.1/src/binary16/convert.rs /home/Priax/.cargo/registry/src/index.crates.io-6f17d22bba15001f/half-2.2.1/src/leading_zeros.rs /home/Priax/.cargo/registry/src/index.crates.io-6f17d22bba15001f/half-2.2.1/src/slice.rs /home/Priax/.cargo/registry/src/index.crates.io-6f17d22bba15001f/half-2.2.1/src/vec.rs
+
+/home/Priax/PROJETS PERSO/RUST/PikTekChat/target/debug/deps/half-a0b2f47f18d6a6a5.d: /home/Priax/.cargo/registry/src/index.crates.io-6f17d22bba15001f/half-2.2.1/src/lib.rs /home/Priax/.cargo/registry/src/index.crates.io-6f17d22bba15001f/half-2.2.1/src/bfloat.rs /home/Priax/.cargo/registry/src/index.crates.io-6f17d22bba15001f/half-2.2.1/src/bfloat/convert.rs /home/Priax/.cargo/registry/src/index.crates.io-6f17d22bba15001f/half-2.2.1/src/binary16.rs /home/Priax/.cargo/registry/src/index.crates.io-6f17d22bba15001f/half-2.2.1/src/binary16/convert.rs /home/Priax/.cargo/registry/src/index.crates.io-6f17d22bba15001f/half-2.2.1/src/leading_zeros.rs /home/Priax/.cargo/registry/src/index.crates.io-6f17d22bba15001f/half-2.2.1/src/slice.rs /home/Priax/.cargo/registry/src/index.crates.io-6f17d22bba15001f/half-2.2.1/src/vec.rs
+
+/home/Priax/.cargo/registry/src/index.crates.io-6f17d22bba15001f/half-2.2.1/src/lib.rs:
+/home/Priax/.cargo/registry/src/index.crates.io-6f17d22bba15001f/half-2.2.1/src/bfloat.rs:
+/home/Priax/.cargo/registry/src/index.crates.io-6f17d22bba15001f/half-2.2.1/src/bfloat/convert.rs:
+/home/Priax/.cargo/registry/src/index.crates.io-6f17d22bba15001f/half-2.2.1/src/binary16.rs:
+/home/Priax/.cargo/registry/src/index.crates.io-6f17d22bba15001f/half-2.2.1/src/binary16/convert.rs:
+/home/Priax/.cargo/registry/src/index.crates.io-6f17d22bba15001f/half-2.2.1/src/leading_zeros.rs:
+/home/Priax/.cargo/registry/src/index.crates.io-6f17d22bba15001f/half-2.2.1/src/slice.rs:
+/home/Priax/.cargo/registry/src/index.crates.io-6f17d22bba15001f/half-2.2.1/src/vec.rs:

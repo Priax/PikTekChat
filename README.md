@@ -1,9 +1,10 @@
-# PicTekChat
+# PikTekChat
 
 A little program I did using Rust and SDL2
 
 I made it on Fedora Linux so I don't know if it works on other OS/Distros<br>
-You also need to install rust to run it, use <code>Cargo run</code> to run it !
+You also need to install rust to run it, use <code>Cargo run</code> to run it ! <br>
+(You might need to install the sdl2-rust library first)
 
 It's a drawing program which draws using a line made out of circles, you can :
 
