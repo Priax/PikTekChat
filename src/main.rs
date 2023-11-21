@@ -72,6 +72,7 @@ fn main() {
 
     let mut previous_x: i32 = 0;
     let mut previous_y: i32 = 0;
+    let mut bezier_points: Vec<Point> = Vec::new();
 
     'gameloop: loop {
         for evt in event_pump.poll_iter() {
@@ -86,7 +87,9 @@ fn main() {
                 Event::MouseButtonDown {mouse_btn, x, y, ..} => {
                     if mouse_btn == MouseButton::Left && layers[current_layer_index].visible {
                         is_drawing = true;
-                        let bezier_points = vec![Point::new(x, y), Point::new(x, y)];
+                        bezier_points.push(Point::new(x, y));
+                        bezier_points.push(Point::new(x, y));
+
                         draw_bezier_curve(&mut layers[current_layer_index], &bezier_points, colors[current_color_index], pencil_size);
                         previous_x = x;
                         previous_y = y;
@@ -98,13 +101,14 @@ fn main() {
                     }
                 },
                 Event::MouseMotion { x, y, .. } => {
-                    if is_drawing {
-                        let mut bezier_points = Vec::new();
+                    if is_drawing && (previous_x != x || previous_y != y) {
+                        bezier_points.clear();
                         bezier_points.push(Point::new(previous_x, previous_y));
                         bezier_points.push(Point::new(x, y));
 
-                        draw_bezier_curve(&mut layers[current_layer_index], &bezier_points, colors[current_color_index], pencil_size);
 
+                        draw_bezier_curve(&mut layers[current_layer_index], &bezier_points, colors[current_color_index], pencil_size);
+                        bezier_points.clear();
                         previous_x = x;
                         previous_y = y;
                     }
